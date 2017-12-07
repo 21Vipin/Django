@@ -1,0 +1,99 @@
+.btn-primary {
+    background-image: -webkit-linear-gradient(top,#2673b5 0,#265a88 100%);
+    background-image: -o-linear-gradient(top,#337ab7 0,#265a88 100%);
+    background-image: linear-gradient(to bottom,#0a020c 0,#c3a9e6 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff337ab7', endColorstr='#ff265a88', GradientType=0);
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+    background-repeat: repeat-x;
+    border-color: #245580;
+}
+
+.ae {
+  background: #2595FF;
+}
+.ae .e {
+  padding-left: 0;
+  padding-right: 0;
+  margin-bottom: -30px;
+}
+.ae img {
+  margin: 0 10px 30px;
+}
+
+
+/* marketing grid block */
+.af .e {
+  margin-bottom: -60px;
+}
+.ag .ah {
+  margin-bottom: 10px !important;
+}
+@media (max-width: 768px) {
+  .ag .ai {
+    margin-bottom: 40px !important;
+  }
+}
+
+
+/* price plan block */
+.aj {
+  background-color: #F4F5F6;
+}
+.aj .e {
+  margin-bottom: -60px;
+}
+
+
+/* footer block */
+.ak {
+  background-color: #262F36;
+}
+.ak a {
+  color: #fff;
+}
+
+
+/* general block overrrides */
+@media (max-width: 768px) {
+  .k .al {
+    line-height: 1.3;
+  }
+  .k h3 {
+    line-height: 1.15;
+  }
+}
+
+
+/* general inverse overrides */
+.am .an {
+  color: rgba(255, 255, 255, .7) !important;
+}
+.am .ao {
+  background-color: transparent;
+}
+
+
+/* general btn overrides */
+.ap {
+  font-size: 18px;
+}
+.block-secondary .ap {
+  width: 100%;
+}
+.ap:not(.btn-block) {
+  padding: 12px 50px;
+}
+@media (min-width: 768px) {
+  .ap:not(.btn-block) {
+    width: auto;
+  }
+}
+
+
+/* ie10+ */
+@media (min-width: 768px) {
+  .aq {
+    display: flex;
+    align-items: center;
+  }
+}
