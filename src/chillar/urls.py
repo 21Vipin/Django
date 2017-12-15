@@ -17,10 +17,16 @@ from django.conf import settings
 from django.conf.urls.static import static
 from django.conf.urls import url, include
 from django.contrib import admin
+from rest_framework import routers
 
 from profiles import views as profile_views
 from contact import views as contact_views
 from polls import views as polls_views
+from restest import views as rest_views
+
+router = routers.DefaultRouter()
+#router.register(r'task', rest_views.TaskViewSet)
+
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
@@ -30,6 +36,8 @@ urlpatterns = [
     url(r'^contact/$', contact_views.contact, name='contact'),
     url(r'^polls/$', polls_views.polls, name='polls'),
     url(r'^accounts/', include('allauth.urls')),
+    url(r'^restest/', rest_views.TaskViewSet, name ='restest'),
+     # include(router.urls)),
 
 ]
 

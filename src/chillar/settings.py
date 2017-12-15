@@ -45,11 +45,13 @@ INSTALLED_APPS = [
     'profiles',
     'polls.apps.PollsConfig',
     'contact',
+    'restest',
     'crispy_forms',
     'django.contrib.sites',
     'allauth',
     'allauth.account',
     'allauth.socialaccount',
+    'rest_framework',
 ]
 
 MIDDLEWARE = [
